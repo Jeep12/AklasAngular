@@ -1,0 +1,32 @@
+.intInput{
+    width: 60px;
+    background-color: black;
+    border: 1px groove rgb(12, 9, 9);
+    border-radius: 5px;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+    
+}
+.intInput:focus{
+    outline: none;
+    color: red;
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+    border: 1px groove red;
+    text-align: center;
+}
+.btn {
+    background-color: black;
+    border: 1px groove rgb(12, 9, 9);
+    border-radius: 5px;
+    color:white;
+}
+.btn:hover {
+    color: red;
+
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+    border: 1px groove red;
+}

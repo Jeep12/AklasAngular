@@ -1,0 +1,21 @@
+
+<header>
+
+  <ul class="nav justify-content-center menu">
+    <span class=" logo">
+        <a class="nav-link active" [routerLink]="['/home']">Lineage II Aklas</a>
+      </span>
+    <li class="nav-item">
+      <a class="nav-link active" [routerLink]="['/home']">>Inicio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" [routerLink]="['/shop']">>Aklas shop</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Descargas</a>
+    </li>
+    <li class="nav-item">
+      <span class="nav-link myCoins disabled" aria-disabled="true"><img class="coinImg" [src]="MyCoins.image" alt="">{{MyCoins.quantity}}</span>
+    </li>
+  </ul>
+  </header>

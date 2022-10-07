@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "LineageII";
+    src: url("src/assets/font/49_la2font.ttf");
+}
+
+.menu {
+    width: 100%;
+    position:absolute;
+    top:10px;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: rgb(185, 185, 185);
+  
+    font-family:"LineageII";
+    -webkit-box-shadow: 2px 43px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 43px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 43px 23px 0px rgba(0,0,0,0.75);
+}
+.logo {
+    font-family: inherit;
+    font-size: 25px;
+    color: red;
+}
+.logo:hover {
+    font-weight: bold;
+ 
+}
+.logo a {
+    color: inherit;
+}
+.menu li {
+    position: relative;
+    top: 6px;
+}
+.menu li a {
+    color: inherit;
+    letter-spacing: 3px;
+    align-items: center;
+}
+.menu li a:hover {
+    color: red;
+    letter-spacing: 5px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+    border: 1px groove red;
+ 
+}
+.myCoins{
+
+}
+.coinImg{
+    width: 30px;
+    height: 40;
+    margin-right:10px;
+}

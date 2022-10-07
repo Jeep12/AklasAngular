@@ -1,0 +1,54 @@
+
+<div class="container">
+
+  
+
+      <div class="row coin">
+        <div class="col-sm-3">
+            <h5>Aklas Coin</h5>
+          <img class="imgCoin" [src]="coins.image" alt=""></div>
+        <div class="col-sm-3">
+          <h5>Metodo de pago</h5>
+          <select name="" id="" class="methodBuy">
+            <option value="">Mercado Pago</option>
+            <option value="">PayPal</option>
+           </select>
+          </div>
+        <div class="col-sm-3">
+          <h5>Cantidad</h5>
+            <app-insert-int></app-insert-int>
+        </div>
+        <div class="col-sm-3">
+          <span>Precio:{{coins.price}} {{5 | currency}}</span>
+          <br>
+          <button class="btn">Comprar</button>
+        
+        </div>
+      </div>
+
+     
+<div class="row">
+    <table class="tableItems">
+        <thead>
+          <tr>
+            <td >#</td>
+            <td >Nombre</td>
+            <td >Tipo</td>
+            <td >Precio</td>
+            <td ></td>
+          
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of items" >
+            <td><img [src]="item.image" alt=""></td>
+            <td >{{item.name}}</td>
+            <td>{{item.type | uppercase}}</td>
+            <td>{{item.price}}</td>
+            <td><button class="btn">Comprar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+ 

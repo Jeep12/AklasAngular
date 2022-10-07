@@ -1,0 +1,81 @@
+/* Fondo video mp4*/
+@font-face {
+    font-family: "LineageII";
+    src: url("src/assets/font/49_la2font.ttf");
+}
+#background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+ /*BORDER BODY IMAGE */
+        
+ .nk-page-border .nk-page-border-t,
+ .nk-page-border .nk-page-border-r,
+ .nk-page-border .nk-page-border-b,
+ .nk-page-border .nk-page-border-l {
+     position: fixed;
+     z-index: 2000;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     user-drag: none;
+     pointer-events: none;
+     background-size: 100% 100%;
+ }
+ 
+ .nk-page-border .nk-page-border-t,
+ .nk-page-border .nk-page-border-b {
+     left: 0;
+     width: 100%;
+ }
+ 
+ .nk-page-border .nk-page-border-t {
+     top: 0;
+     background-image: url("assets/images/border-top.png");
+ }
+ 
+ .nk-page-border .nk-page-border-b {
+     bottom: 0;
+     background-image: url("assets/images/border-bottom.png");
+ }
+ 
+ .nk-page-border .nk-page-border-r,
+ .nk-page-border .nk-page-border-l {
+     top: 0;
+     height: 100%;
+ }
+ 
+ .nk-page-border .nk-page-border-r {
+     right: 0;
+     background-image: url("assets/images/border-right.png");
+ }
+ 
+ .nk-page-border .nk-page-border-l {
+     left: 0;
+     background-image: url("assets/images/border-left.png");
+ }
+ 
+ .nk-page-border .nk-page-border-t,
+ .nk-page-border .nk-page-border-b {
+     height: 100px;
+ }
+ 
+ .nk-page-border .nk-page-border-r,
+ .nk-page-border .nk-page-border-l {
+     width: 100px;
+ }
+ 
+ @media (max-width: 543px) {
+     .nk-page-border .nk-page-border-t,
+     .nk-page-border .nk-page-border-b {
+         height: 50px;
+     }
+     .nk-page-border .nk-page-border-r,
+     .nk-page-border .nk-page-border-l {
+         width: 50px;
+     }
+ }

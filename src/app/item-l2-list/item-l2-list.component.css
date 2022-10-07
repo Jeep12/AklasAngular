@@ -1,0 +1,87 @@
+
+.container {
+    position: relative;
+    top: 140px;
+}
+h5 {
+    color: gold;
+    font-size: 15px;
+    font-family: "LineageII";
+  
+}
+.btn {
+    background-color: black;
+    border: 1px groove rgb(12, 9, 9);
+    border-radius: 5px;
+    color:white;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+.btn:hover {
+    color: red;
+
+    background-color: rgb(8, 8, 8);
+    border-radius: 5px;
+    border: 1px groove red;
+}
+
+.methodBuy:focus{
+    outline: none;
+  
+
+}
+
+
+.imgCoin{
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+ .coin {
+    align-items: center;
+    text-align: center;
+    border-top: 5px solid black;
+    border-left: 2.5px solid black;
+    border-right: 2.5px solid black;
+    background-color: #000000ab;
+
+}
+
+
+
+.methodBuy{
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.tableItems{
+    margin: 30px auto;
+    background-color: #000000ab;
+    color: #212529;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.tableItems thead,tbody tr td {
+    width: 100px;
+}
+.tableItems thead,tbody tr:hover {
+    background-color: black;
+    color: white;
+}
